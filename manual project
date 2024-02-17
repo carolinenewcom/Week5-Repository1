@@ -1,0 +1,5 @@
+inputPhraseString= input( "Input your phrase: ")
+inputTimeString= input( "How many times should it be repeated? " )
+n= int(inputTimeString)
+for index in range (n):
+    print (1, inputPhraseString)
